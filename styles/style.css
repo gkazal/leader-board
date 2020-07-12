@@ -1,0 +1,34 @@
+
+.navbar{
+    background-color: #562EFF;
+    color: white;
+}
+.navbar-nav img{
+    width: 40px;
+}
+
+.top-player img{
+    width: 50px;
+}
+.navbar-brand img{
+    padding-left: 200px;
+    max-width: 100%;
+}
+
+body{
+    background-color: #F3F1FF;
+}
+main{
+    max-width: 870px;
+}
+.top-player{
+    background-color: #FFFFFF;
+}
+/* @media only screen and (max-width:576px){
+    .navbar-brand img{
+        display: flex;
+        padding-left: 0;
+        text-align: center;
+
+    }
+} */
