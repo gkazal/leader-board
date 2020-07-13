@@ -1,6 +1,5 @@
 
 .navbar{
-    background-color: #562EFF;
     color: white;
 }
 .navbar-nav img{
@@ -10,9 +9,9 @@
 .top-player img{
     width: 50px;
 }
-.navbar-brand img{
-    padding-left: 200px;
-    max-width: 100%;
+
+.bg-color{
+    background-color: #562EFF;
 }
 
 body{
@@ -20,15 +19,45 @@ body{
 }
 main{
     max-width: 870px;
-}
-.top-player{
     background-color: #FFFFFF;
 }
-/* @media only screen and (max-width:576px){
-    .navbar-brand img{
-        display: flex;
-        padding-left: 0;
-        text-align: center;
+.top-player{
+    margin-top: 40px;
 
-    }
-} */
+}
+.top-blog img{
+    width: 177px;
+}
+.main2{
+    max-width: 870px;
+    background-color: #FFFFFF;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-bottom: 10px;
+}
+.card img{
+    width: 98%;
+    padding: 5px;
+}
+.card-bottom img{
+    width: 25px;
+} 
+
+.checked{
+    color: orange;
+}
+.unchecked{
+    color: gray;
+}
+.card-bottom-time{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+.card-bottom{
+    margin-top: 20px;
+}
