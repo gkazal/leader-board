@@ -1,6 +1,7 @@
 
 .navbar{
     color: white;
+    
 }
 .navbar-nav img{
     width: 40px;
@@ -10,7 +11,7 @@
     width: 50px;
 }
 
-.bg-color{
+.header-bg-color{
     background-color: #562EFF;
 }
 
@@ -61,3 +62,57 @@ main{
 .card-bottom{
     margin-top: 20px;
 }
+
+.card:hover{
+    transform: scale(1.08);
+    transition: transform 1s;
+}
+
+.footer {
+    background-color: #562EFF;
+    color: #eeeeee;
+    border-top: 1px solid red;
+    height: 350px;  /* footer height */
+    margin-top: 50px; /* space between content and footer */
+    width: 100%;
+}
+
+@media only screen and (max-width:968px) and (min-width:768px){
+    /* .navbar-brand img{
+        padding-left: 0%;
+    } */
+    .card-bottom img{
+        width: 100%;
+        display: none;
+
+    }  
+} 
+@media only screen and (max-width:768px){
+    .top-blog h4{
+        font-size: 15px;
+    }
+} 
+@media only screen and (max-width:367px){
+    .top-player{
+        font-size: 10px;
+    }
+} 
+@media only screen and (max-width:991px)and (min-width:650px){
+    .navbar-brand{
+        margin-left: 5px;
+    }
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+   
+    
+    
+} 
+
+
+/* @media only screen and (max-width:991px) and (min-width:768px){
+    .navbar-brand{
+        margin-left: 5%;
+    }
+
+}  */
